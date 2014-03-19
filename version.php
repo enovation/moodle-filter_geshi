@@ -27,4 +27,4 @@ $plugin->component = 'filter_geshi';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->release = 'v1.0.8.11-r1';
 $plugin->version = 2014011000;
-$plugin->requires = 2011070100;
+$plugin->requires = 2013101800;

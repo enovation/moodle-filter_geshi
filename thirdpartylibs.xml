@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>geshi</location>
+    <name>geshi</name>
+    <license>GPL</license>
+    <version>1.0.8.11-r1</version>
+    <licenseversion>3.0+</licenseversion>
+  </library>
+</libraries>

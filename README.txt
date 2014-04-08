@@ -11,7 +11,6 @@ To Use it:
     - Enclose your code in <span syntax="langname"> </span>
     - There are some options available:
     - linenumbers="yes": Enable line numbers
-    - urls="yes": Enable keyword-to-URL conversion
     - example usage:
       <span syntax="langname" linenumbers="yes"></span>
     - Syntax attribute must come first, the others are optional

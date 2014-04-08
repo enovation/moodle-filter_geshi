@@ -143,7 +143,7 @@ protected function geshi_filter_callback($data) {
                 $geshi->enable_line_numbers(GESHI_FANCY_LINE_NUMBERS, 5);
                 $geshi->set_line_style('color:#222;', 'color:#888;');
                 $geshi->set_header_type(GESHI_HEADER_DIV);
-                $geshi->set_overall_style('font-size: 14px;font-family: monospace;', true);
+                $geshi->set_overall_style('font-size: 14px;font-family: monospace;padding-left:5px;', true);
             }
             if ($options['indentsize']) {
                 $geshi->set_tab_width($options['indentsize']);

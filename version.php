@@ -25,6 +25,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'filter_geshi';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = 'v1.0.8.12';
-$plugin->version = 2015112300;
+$plugin->release = 'v1.0.9.0';
+$plugin->version = 2017051500;
 $plugin->requires = 2013101800;

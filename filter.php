@@ -52,9 +52,9 @@ class filter_geshi extends moodle_text_filter {
 // urls="yes":        Enable keyword-to-URL conversion
 // indentsize="num":  Switch tabs for this many spaces. Be warned! Only TABS are replaced.
 public function filter($text, array $options = array()) {
-  if (stripos($text, '</code>') !== false) {
+  if (stripos($text, '<code>') !== false) {
      $search = '/<code(.*?)>(.*?)<\/code>\s*/is';
-  } else if (stripos($text, '</php>') !== false) {
+  } else if (stripos($text, '<php>') !== false) {
      $search = '/<php(.*?)>(.*?)<\/php>\s*/is';
   } else if (stripos($text, 'syntax=') !== false) {
      $search = '/<span (.*?)>(.*?)<\/span>\s*/is';
